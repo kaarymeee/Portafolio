@@ -1,4 +1,25 @@
 @charset "UTF-8";
+
+@font-face {
+    font-family: 'Recoleta Alt';
+    src: url("../medios/font/RecoletaAlt-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Recoleta Alt';
+    src: url("../medios/font/RecoletaAlt-SemiBold.ttf") format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recoleta Alt';
+    src: url("../medios/font/RecoletaAlt-Black.ttf") format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
 *{
 			margin: 0;
 			padding: 0;
@@ -7,20 +28,16 @@
 a {
 	text-decoration: none;
   	color: gray;
-	font-family: 'Recoleta Alt';
-}
-
-.menu a:active{
-	color:black;
-	font-family: 'Recoleta Alt';
-	font-weight: 700;
+	font-family: Recoleta Alt;
+	font-weight: normal;
 }
 
 .menu a:hover{
 	color:black;
-	font-family: 'Recoleta Alt';
-	font-weight: 500;
+	font-family: Recoleta Alt;
+	font-weight: 900;
 }
+
 
 .imgfooter:hover{
 	filter: brightness(-100%);}
@@ -53,11 +70,13 @@ a {
 }
 
 .menu a {
-  color: gray;
-  font-size: 21px;
-  font-weight: 500;
-  line-height: 50px;
-  position: relative;
+  	color: gray;
+  	font-size: 21px;
+  	line-height: 50px;
+  	position: relative;
+	font-family: Recoleta Alt;
+    font-weight: normal;
+    font-style: normal;
 }
 
 .open-menu,

@@ -16,6 +16,13 @@
 }
 
 @font-face {
+    font-family: 'Recoleta';
+    src: url("../medios/font/Recoleta-SemiBold.ttf") format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Recoleta Alt';
     src: url("../medios/font/RecoletaAlt-Black.ttf") format('truetype');
     font-weight: 900;
@@ -91,7 +98,7 @@
     color: white;
     border: none;
     margin-top: 37px;
-    font-family: 'Recoleta';
+    font-family: Recoleta;
     font-size: 12pt;
 	border-radius: 20px;
     padding-top: 4px;
@@ -99,6 +106,8 @@
     padding-bottom: 4px;
     padding-left: 12px;
 	cursor: pointer;
+	font-weight: 500;
+    font-style: normal;
 }
 
 .profilebutton:hover{
@@ -189,9 +198,9 @@ h4{
 
 .secport1, .secport2, .secport3, .secport4{
 	font-size: 15pt;
-    font-weight:400;
+    font-weight:600;
     color: #7F7F7F;
-    font-family: 'Recoleta Alt';
+    font-family: Recoleta Alt;
     margin-top: 15px;
     margin-bottom: 1px;
 	max-width: 331px;
