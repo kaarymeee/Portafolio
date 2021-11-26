@@ -1,5 +1,39 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Recoleta Alt';
+    src: url("../medios/font/RecoletaAlt-Thin.ttf") format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url("../medios/font/Recoleta-Medium.ttf") format('truetype');
+    font-weight: 500;
+    font-style: normal;
+	
+}
+
+@font-face {
+    font-family: 'Recoleta Alt';
+    src: url("../medios/font/RecoletaAlt-Black.ttf") format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recoleta Alt';
+    src: url("../medios/font/RecoletaAlt-SemiBold.ttf") format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face{
+	font-family: raleway;
+	src:  url("../medios/font/Raleway-VariableFont_wght.ttf")
+}
+
 /*parte1*/
 
 * {
@@ -18,7 +52,7 @@
 
 .profiletittle{
     font-size: 32pt;
-    font-weight: black;
+    font-weight: 900;
     color: #FF724D;
     font-family: 'Recoleta Alt';
     margin-top: 12px;
@@ -90,9 +124,10 @@
 
 h3{
     font-size: 25pt;
-    font-weight:600;
+    font-weight: 600;
     color: #FF724D;
-    font-family: 'Recoleta Alt';
+    font-family: Recoleta Alt;
+	font-style: normal;
     margin-top: 12px;
     margin-bottom: 10px;
 	max-width: 331px;
@@ -228,7 +263,6 @@ h4{
 .textot2{
 	font-family: raleway;
     font-weight: 400;
-	font-style: italic;
     font-size: 9pt;
     min-width: 280px;
     margin-top: -5px;
@@ -242,7 +276,6 @@ h4{
 .textot3{
 	font-family: raleway;
     font-weight: 400;
-	font-style: italic;
     font-size: 9pt;
     min-width: 270px;
     margin-top: -10px;
@@ -296,7 +329,6 @@ h4{
 label{
 	font-family: raleway;
     font-weight: 400;
-	font-style: italic;
     font-size: 12pt;
     max-width: 331px;
     margin-top: 5px;
@@ -769,7 +801,6 @@ h4{
 .textot2{
 	font-family: raleway;
     font-weight: 400;
-	font-style: italic;
     font-size: 9pt;
     min-width: 280px;
     margin-top: -5px;
@@ -783,7 +814,7 @@ h4{
 .textot3{
 	font-family: raleway;
     font-weight: 400;
-	font-style: italic;
+
     font-size: 9pt;
     min-width: 270px;
     margin-top: -10px;
